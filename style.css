@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(103, 104, 82);
+}
+
+.slider {
+    width: 80%;
+    height: 400px;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(240, 230, 230, 0.3);
+}
+
+.slides {
+    height: 100%;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.slides img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+#prevbtn {
+    left: 15px;
+}
+
+#nextbtn {
+    right: 15px;
+}
