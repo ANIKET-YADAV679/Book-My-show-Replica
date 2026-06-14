@@ -20,10 +20,11 @@
     </div>
 
     <div id="top-nav-container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQRljVyfj3UiMHupL1q-KarIA2U3vncvyxw&s" alt="Book My Show Logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQRljVyfj3UiMHupL1q-KarIA2U3vncvyxw&s"
+            alt="Book My Show Logo">
 
         <form onsubmit="event.preventDefault();">
-            <input type="search" placeholder="Search for movies, events, plays..." size="40">
+            <input type="search" id ="search-input"placeholder="Search for movies, events, plays..." size="40">
             <button type="submit">Search</button>
             <div id="auth-links">
                 <a href="signin.html">SIGN IN</a>
@@ -50,9 +51,12 @@
         <button class="btn" id="nextbtn">&#10095;</button>
 
         <div class="slides">
-            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1780577551749_wardriverweb.jpg" alt="Promotional Banner 1">
-            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1776147534355_popwebnew.jpg" alt="Premiere Banner 2">
-            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1780577551749_wardriverweb.jpg" alt="Stream Banner 3">
+            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1780577551749_wardriverweb.jpg"
+                alt="Promotional Banner 1">
+            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1776147534355_popwebnew.jpg"
+                alt="Premiere Banner 2">
+            <img src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1780577551749_wardriverweb.jpg"
+                alt="Stream Banner 3">
         </div>
     </div>
 
@@ -61,40 +65,45 @@
         <p>Discover the latest and greatest shows and movies available on Book My Show.</p>
 
         <div class="grid-container">
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTIuM0srIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@pt-v1.png,t-false,lfo-top_right,lx-N5,ly-0,w-160,l-end/et00496590-pwbhljcwrm-portrait.jpg" alt="First image" style="width: 200px; height: auto;" alt="The Great Grand Superhero">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTIuM0srIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@pt-v1.png,t-false,lfo-top_right,lx-N5,ly-0,w-160,l-end/et00496590-pwbhljcwrm-portrait.jpg"
+                    alt="First image" style="width: 200px; height: auto;" alt="The Great Grand Superhero">
                 <figcaption>
                     <h4>The Great Grand Superhero</h4>
                     <p>Comedy/Sci-Fi/Adventure</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAxNi42SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00485890-rrwgnrapqk-portrait.jpg" alt="Second image" style="width: 200px; height: auto;" alt="Pati Patni Aur Woh Do">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAxNi42SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00485890-rrwgnrapqk-portrait.jpg"
+                    alt="Second image" style="width: 200px; height: auto;" alt="Pati Patni Aur Woh Do">
                 <figcaption>
                     <h4>Pati Patni Aur Woh Do</h4>
                     <p>Comedy/Romantic</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICAxMEsrIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00484700-nstldwkesv-portrait.jpg" alt="Third image" style="width: 200px; height: auto;" alt="Chand Mera Dil">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICAxMEsrIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00484700-nstldwkesv-portrait.jpg"
+                    alt="Third image" style="width: 200px; height: auto;" alt="Chand Mera Dil">
                 <figcaption>
                     <h4>Chand Mera Dil</h4>
                     <p>Drama/Musical/Romantic</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny41LzEwICA5MC45SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00411383-vewbxmabch-portrait.jpg" alt="Bhooth Bangla">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny41LzEwICA5MC45SysgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00411383-vewbxmabch-portrait.jpg"
+                    alt="Bhooth Bangla">
                 <figcaption>
                     <h4>Bhooth Bangla</h4>
                     <p>Comedy/Horror/Thriller</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni41LzEwICA1LjNLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00466949-dhrenpnbzb-portrait.jpg" alt="Kattalan">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni41LzEwICA1LjNLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00466949-dhrenpnbzb-portrait.jpg"
+                    alt="Kattalan">
                 <figcaption>
                     <h4>Kattalan</h4>
                     <p>Action/Thriller</p>
@@ -109,32 +118,37 @@
     <div id="events-section">
         <h2>THE BEST OF LIVE EVENTS</h2>
         <div class="grid-container">
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png" alt="Comedy Shows">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png"
+                    alt="Comedy Shows">
                 <figcaption>
                     <h5>Comedy Shows</h5>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png" alt="Amusement Parks">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png"
+                    alt="Amusement Parks">
                 <figcaption>
                     <h5>Amusement Parks</h5>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-banner-desktop-collection-202503251132.png" alt="Kids Events">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-banner-desktop-collection-202503251132.png"
+                    alt="Kids Events">
                 <figcaption>
                     <h5>Kids Events</h5>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png" alt="Music Concerts">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png"
+                    alt="Music Concerts">
                 <figcaption>
                     <h5>Music Concerts</h5>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/arts-crafts-collection-202211140440.png" alt="Arts & Crafts">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/arts-crafts-collection-202211140440.png"
+                    alt="Arts & Crafts">
                 <figcaption>
                     <h5>Arts & Crafts</h5>
                 </figcaption>
@@ -144,43 +158,48 @@
 
     <div id="premiere-section">
         <h2>THE PREMIERE</h2>
-        
+
 
         <div class="grid-container">
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00462807-ahpvhgrbsu-portrait.jpg" alt="TAndhela Ravamidhi">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00462807-ahpvhgrbsu-portrait.jpg"
+                    alt="TAndhela Ravamidhi">
                 <figcaption>
                     <h4>TAndhela Ravamidhi</h4>
                     <p>Telugu / Drama</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008/et00499956-ldhkpppsnx-portrait.jpg" alt="Die Drei ??? Toteninsel">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008/et00499956-ldhkpppsnx-portrait.jpg"
+                    alt="Die Drei ??? Toteninsel">
                 <figcaption>
                     <h4>Die Drei ??? Toteninsel</h4>
                     <p>German / Mystery/Crime</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00482689-nletnheaxv-portrait.jpg" alt="Once Upon a Time in Gaza">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00482689-nletnheaxv-portrait.jpg"
+                    alt="Once Upon a Time in Gaza">
                 <figcaption>
                     <h4>Once Upon a Time in Gaza</h4>
                     <p>Arabic / Historical/Drama</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00480668-nuztuwczxk-portrait.jpg" alt="The Botanist">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00480668-nuztuwczxk-portrait.jpg"
+                    alt="The Botanist">
                 <figcaption>
                     <h4>The Botanist</h4>
                     <p>Kazakh / Sci-Fi/Drama</p>
                 </figcaption>
             </figure>
 
-            <figure>
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00482084-fgfnwfyzef-portrait.jpg" alt="Lee Cronin's The Mummy">
+            <figure class="searchable-card">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00482084-fgfnwfyzef-portrait.jpg"
+                    alt="Lee Cronin's The Mummy">
                 <figcaption>
                     <h4>Lee Cronin's The Mummy</h4>
                     <p>English / Horror/Fantasy</p>
@@ -198,9 +217,7 @@
         <button type="button">CONTACT US!</button>
     </div>
 
-    <!-- <div id="footer-decor-img">
-        <img src="" alt="Footer Separator Panel">
-    </div> -->
+    
 
     <footer>
         <div>
